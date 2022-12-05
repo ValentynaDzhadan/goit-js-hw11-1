@@ -77,7 +77,7 @@ function loadMoreOnClick() {
     .then(response => {
       renderMarkup(response);
       lightbox.refresh();
-      //   smoothScroll();
+      smoothScroll();
       const totalPages = Math.ceil(response.data.totalHits / perPage);
       if (page >= totalPages) {
         alertNoMoreImage();
