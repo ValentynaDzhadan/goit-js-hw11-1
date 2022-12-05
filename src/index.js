@@ -1,6 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import './css/styles.css';
+// import './css/styles.css';
 import Notiflix from 'notiflix';
 import { createMarkup } from './js/cardMarkup';
 import { fetchImages } from './js/fetchImages';
